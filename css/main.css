@@ -1,3 +1,66 @@
 body{
+    padding: 0;
+    margin: 0;
+    height: 30px;
     background-image: radial-gradient(circle, #dbdbdb, #c7cadf, #a9bce5, #7bb1e9, #12a7eb);
+}
+
+header{
+    color: grey;
+    padding: 10px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-between;
+}
+header .logo{
+    font-weight: 700;
+    padding-left: 15px;
+}
+
+span{
+    font-size: 1.5rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+.position-container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.position-container button{
+    height: fit-content
+}
+.current-position{
+    display: flex;
+    align-items: center;
+}
+.map-weather-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 40px 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.26);
+}
+.weather-container{
+    background-color: beige;
+    height: 300px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map-container{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 0);
+    height: 300px;
+    width: 300px;
 }
