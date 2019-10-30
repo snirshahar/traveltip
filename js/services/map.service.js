@@ -23,7 +23,7 @@ export function initMap(lat = 32.0749831, lng = 34.9120554) {
     })
 }
 
-function addMarker(loc) {
+export function addMarker(loc) {
     var marker = new google.maps.Marker({
         position: loc,
         map: map,
@@ -32,7 +32,7 @@ function addMarker(loc) {
     return marker;
 }
 
-function panTo(lat, lng) {
+export function panTo(lat, lng) {
     var laLatLng = new google.maps.LatLng( lat,  lng);
     map.panTo(laLatLng);
 }
